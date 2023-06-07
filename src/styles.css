@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+}
+
+.page,
+#toast {
+  position: absolute;
+}
+
+#toast {
+  z-index: 10;
+  top: 0;
+  right: 0;
+  margin: 5px;
+  border: 10px;
+}
+
+.toastDiv {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(92, 209, 180);
+  border-radius: 10px;
+}
+
+.toastCloseBtnDiv {
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+
+.btn {
+  background-color: lightsteelblue;
+}
+
+#showFlashBtn {
+  background-color: lightcyan;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
